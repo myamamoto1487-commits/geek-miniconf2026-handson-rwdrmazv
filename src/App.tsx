@@ -10,14 +10,14 @@ const ProfileSection = () => {
   return (
     <div className="flex flex-col items-center text-center gap-3 pt-12 pb-2">
       {/* === Step 1. アイコンを表示させる */}
-      <Avatar iconPath={iconImage} initials='TG' size={96} />
+      <Avatar iconPath={iconImage} initials='' size={96} />
 
       {/* === Step 2. 自分の名前、所属、一言を表示させる === */}
       {/* 💡自分の情報に書き換えよう */}
       
       <div className="mt-2">
         <span className="text-2xl font-bold text-[#3a3028] m-0">Masaya</span>
-        <p className="text-sm text-[#8a7a6c] mt-0.5">Taro Giiku</p>
+        <p className="text-sm text-[#8a7a6c] mt-0.5">Y M</p>
       </div>
       <p className="text-sm text-[#6b5744]">立命館大学 理工学研究科 2年</p>
       <p className="text-xs text-[#8a7a6c]">📍 滋賀</p>
